@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+    font-family: "Montserrat";
+}
+.header{
+    background-image:url('/img/final2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   
+
+}
+.header-nav{
+   
+    background-color: rgb(221 197 197 / 50%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 30px ;
+   
+   
+}
+.nav-list{
+    list-style-type:none;
+    display:flex;
+    font-family: sans-serif;
+}
+.logo-link{
+    text-decoration: none;
+    font-size: bolder;
+    font-family: sans-serif;
+    color:#4009a0;
+    font-size: 35px;
+}
+.nav-link{
+    font-size: 20px;
+    color: #1a5f9d;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: color .3s;}
+
+.nav-link:hover{
+    color:#54a4ed ;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.main-heading{
+  
+   font-size: normal;
+    color:black;
+    
+}
+.heading-focus{
+    font-size: normal;
+    color: #621d1d;
+   
+  
+    
+}
+
+.sub-heading{
+    text-align: right;
+    color: #0b0a32;
+    margin-top :5px;
+    font-size:18px ;
+    padding: 5px;
+   
+
+}
+.con{
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px 30px;
+    background:rgb(151 75 52);
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 15, 15);
+    color: aliceblue;
+}
+.con:hover{
+    background:rgb(143, 85, 68);
+    border: 1px solid rgb(165, 58, 58);
+}
+.content{
+   position: absolute; 
+   top:45%;
+   left: 70px;
+   margin-left: 50px;
+   transform: translateY(-50%);
+}
+.main-container{
+
+    background: #ebebeb;
+    
+}
+.main-card-title{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#333;
+}
+.card-content{
+    width: 1000px;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.card-img-container{
+    width: 350px;
+    height: 70%;
+    background: rgb(43, 178, 223);
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.card-title{
+
+   text-align: center;
+   margin: 20px;
+   font-size: 20px;
+   font-weight: bold;
+   color: #333;
+}
+.card-span{
+
+    font-weight: normal;
+    display: block;
+}
+.card-info{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    transition: .5s ease;
+}
+.card-img{
+    transition: .5s ease;
+}
+.info{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 20px;
+    color: #e0ebe8;
+    margin: auto;
+    padding: 20px;
+
+
+}
+.card-img-container:hover > .card-info{
+    top: 0;
+}
+.card-img-container:hover > .card-img{
+  transform: scale(1.5);
+}
+.banner-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:-1px -1px 15px 3px rgba(0,0,0,0.75);
+    
+}
+.banner-container-1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:-1px -1px 15px 3px rgba(0,0,0,0.75);
+  
+    
+}
+.banner{
+    margin: 20px;
+
+}
+.banner-content{
+    text-align: center;
+    line-height: 2;
+    font-size: bold;
+}
+.desc{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 18px;
+}
+.contact-container{
+    height: 540px ;
+    background: url('/img/2.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-repeat: no-repeat;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-info-container,
+.container{
+    flex-basis: 40%;
+    height: 80%;
+    background: rgba(115, 109, 109, 0.5);
+    display: flex;
+}
+.contact-form,.contact-info{
+    margin: auto;
+
+}
+td{
+vertical-align: 10px;
+padding:1-px ;
+font-size: 22px;
+letter-spacing: 2px;
+}
+
+.contact-input{
+    width: 90%;
+    height: 20%;
+    font-size: bold;
+    font-size: 18px;
+}
+input[type="email"],input[type="text"]{
+    padding-left: 10px;
+}
+.contact{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
